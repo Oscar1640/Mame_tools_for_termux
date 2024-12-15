@@ -1,5 +1,5 @@
 # Mame_tools_for_termux (experimental)
-
+Only for arm64 devices.
 ## tools included:
 - chdman
 - floptool
