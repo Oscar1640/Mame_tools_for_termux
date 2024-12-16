@@ -1,6 +1,6 @@
 # MAME Tools for Termux (Experimental)
 
-This repository provides **pre-compiled binaries** of MAME tools for [Termux](https://github.com/termux/termux-app), specifically for **ARM64 devices**. These tools are designed to assist in managing and manipulating MAME-related files.
+This repository provides **pre-compiled binaries** of MAME tools for [Termux](https://github.com/termux/termux-app). These tools are designed to assist in managing and manipulating MAME-related files.
 
 ## Tools Included
 The following MAME tools are included as binaries:
