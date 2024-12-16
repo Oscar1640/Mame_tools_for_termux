@@ -1,0 +1,24 @@
+diff -ur 3rdparty/lzma/C/AesOpt.c Mamesource/3rdparty/lzma/C/AesOpt.c
+--- 3rdparty/lzma/C/AesOpt.c	2024-12-16 14:54:42.017941827 -0500
++++ Mamesource/3rdparty/lzma/C/AesOpt.c	2024-12-16 12:36:28.989941333 -0500
+@@ -558,7 +558,7 @@
+ 
+   #if defined(__clang__)
+     #if (__clang_major__ >= 8) // fix that check
+-      #define USE_HW_AES
++      //#define USE_HW_AES
+     #endif
+   #elif defined(__GNUC__)
+     #if (__GNUC__ >= 6) // fix that check
+diff -ur 3rdparty/lzma/C/Sha256Opt.c Mamesource/3rdparty/lzma/C/Sha256Opt.c
+--- 3rdparty/lzma/C/Sha256Opt.c	2024-12-16 14:54:14.533941826 -0500
++++ Mamesource/3rdparty/lzma/C/Sha256Opt.c	2024-12-16 12:36:28.989941333 -0500
+@@ -206,7 +206,7 @@
+ 
+   #if defined(__clang__)
+     #if (__clang_major__ >= 8) // fix that check
+-      #define USE_HW_SHA
++      //#define USE_HW_SHA
+     #endif
+   #elif defined(__GNUC__)
+     #if (__GNUC__ >= 6) // fix that check

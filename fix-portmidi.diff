@@ -1,0 +1,11 @@
+diff -ur 3rdparty/portmidi/pm_common/pmutil.c Mamesource/3rdparty/portmidi/pm_common/pmutil.c
+--- 3rdparty/portmidi/pm_common/pmutil.c	2024-11-29 18:43:20.000000000 -0500
++++ Mamesource/3rdparty/portmidi/pm_common/pmutil.c	2024-12-16 02:30:03.962071770 -0500
+@@ -4,6 +4,7 @@
+ #include <stdlib.h>
+ #include <assert.h>
+ #include <string.h>
++#include <strings.h>
+ #include "portmidi.h"
+ #include "pmutil.h"
+ #include "pminternal.h"
